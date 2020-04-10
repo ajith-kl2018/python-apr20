@@ -20,13 +20,21 @@
 #print("Hi!, " + firstName.upper() + " " + lastName.upper())
 
 ##Ask user to enter the age for testing number data type
-age = input("What is your age?")
-print(age)
+#age = input("What is your age?")
+#print(age)
 
-### I am changing the value of name to a default value
-#name = "Python"
+#width = 20 # Width of the place
+#height = 5 # Height of the place
 
+# Width of the place
+width = input("Enter the width")
 
+# Height of the place
+height = input("Enter the height")
+
+area = int(width) * int(height) #Area of the place is width * height
+
+print("Area is :" + str(area))
 
 
 
