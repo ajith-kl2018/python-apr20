@@ -3,6 +3,6 @@
 # 
 
 #Below line prints hello world in sysout/screen
-print("Hello Kuala Lumpur!!!")
+print("Hello World!!!")
 
 
